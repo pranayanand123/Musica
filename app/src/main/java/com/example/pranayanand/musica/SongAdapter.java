@@ -60,6 +60,7 @@ public class SongAdapter extends RecyclerView.Adapter<SongAdapter.SongHolder> {
         return new SongHolder(view);
     }
 
+
     @Override
     public void onBindViewHolder(final SongHolder holder, final int position) {
         final SongInfo songInfo = songs.get(position);
